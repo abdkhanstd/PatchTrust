@@ -1,0 +1,2 @@
+A1_A4_s0|weights/A1_A4_s0/train_summary.json|patchtrust.train --out weights/A1_A4_s0 --mode heads --base weights/A1_s0/best.pt --gate learned --cons 0 --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+A1_A5_s0|weights/A1_A5_s0/train_summary.json|patchtrust.train --out weights/A1_A5_s0 --mode heads --base weights/A1_s0/best.pt --gate learned --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0

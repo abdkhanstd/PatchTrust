@@ -1,0 +1,12 @@
+S0_A5_s0|weights/S0_A5_s0/train_summary.json|patchtrust.train --out weights/S0_A5_s0 --base weights/S0_s0/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+S1_A5_s0|weights/S1_A5_s0/train_summary.json|patchtrust.train --out weights/S1_A5_s0 --base weights/S1_s0/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+S0_A2_s0|weights/S0_A2_s0/train_summary.json|patchtrust.train --out weights/S0_A2_s0 --base weights/S0_s0/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+S1_A2_s0|weights/S1_A2_s0/train_summary.json|patchtrust.train --out weights/S1_A2_s0 --base weights/S1_s0/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+S0_A5_s1|weights/S0_A5_s1/train_summary.json|patchtrust.train --out weights/S0_A5_s1 --base weights/S0_s1/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+S1_A5_s1|weights/S1_A5_s1/train_summary.json|patchtrust.train --out weights/S1_A5_s1 --base weights/S1_s1/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+S0_A2_s1|weights/S0_A2_s1/train_summary.json|patchtrust.train --out weights/S0_A2_s1 --base weights/S0_s1/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+S1_A2_s1|weights/S1_A2_s1/train_summary.json|patchtrust.train --out weights/S1_A2_s1 --base weights/S1_s1/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+S0_A5_s2|weights/S0_A5_s2/train_summary.json|patchtrust.train --out weights/S0_A5_s2 --base weights/S0_s2/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+S1_A5_s2|weights/S1_A5_s2/train_summary.json|patchtrust.train --out weights/S1_A5_s2 --base weights/S1_s2/best.pt --gate learned --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+S0_A2_s2|weights/S0_A2_s2/train_summary.json|patchtrust.train --out weights/S0_A2_s2 --base weights/S0_s2/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+S1_A2_s2|weights/S1_A2_s2/train_summary.json|patchtrust.train --out weights/S1_A2_s2 --base weights/S1_s2/best.pt --gate ungated --mode heads --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2

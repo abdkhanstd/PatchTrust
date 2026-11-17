@@ -1,0 +1,21 @@
+{
+ "base": {
+  "params": 3219838,
+  "params_heads": 0,
+  "gmacs": 0.677495424,
+  "cpu4_ms": 28.046054008882493,
+  "gpu_fp32_ms": 8.8813710026443,
+  "gpu_fp16_ms": 9.57827499951236,
+  "gpu_peak_infer_MB": 148.36181640625
+ },
+ "patchtrust": {
+  "params": 3329677,
+  "params_heads": 109839,
+  "gmacs": 0.764536576,
+  "cpu4_ms": 44.233212975086644,
+  "gpu_fp32_ms": 11.787284020101652,
+  "gpu_fp16_ms": 12.84850700176321,
+  "gpu_peak_infer_MB": 149.89892578125
+ },
+ "gpu": "NVIDIA GeForce RTX 2080 Ti"
+}

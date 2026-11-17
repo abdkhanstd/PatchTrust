@@ -1,0 +1,12 @@
+mech_A0_A5_s0|mech/A0_A5_s0.json|patchtrust.mechanism --ckpt weights/A0_A5_s0/best.pt --out mech/A0_A5_s0.json
+mech_A1_A5_s0|mech/A1_A5_s0.json|patchtrust.mechanism --ckpt weights/A1_A5_s0/best.pt --out mech/A1_A5_s0.json
+mech_A0_A2_s0|mech/A0_A2_s0.json|patchtrust.mechanism --ckpt weights/A0_A2_s0/best.pt --out mech/A0_A2_s0.json
+mech_A1_A2_s0|mech/A1_A2_s0.json|patchtrust.mechanism --ckpt weights/A1_A2_s0/best.pt --out mech/A1_A2_s0.json
+mech_A0_A5_s1|mech/A0_A5_s1.json|patchtrust.mechanism --ckpt weights/A0_A5_s1/best.pt --out mech/A0_A5_s1.json
+mech_A1_A5_s1|mech/A1_A5_s1.json|patchtrust.mechanism --ckpt weights/A1_A5_s1/best.pt --out mech/A1_A5_s1.json
+mech_A0_A2_s1|mech/A0_A2_s1.json|patchtrust.mechanism --ckpt weights/A0_A2_s1/best.pt --out mech/A0_A2_s1.json
+mech_A1_A2_s1|mech/A1_A2_s1.json|patchtrust.mechanism --ckpt weights/A1_A2_s1/best.pt --out mech/A1_A2_s1.json
+mech_A0_A5_s2|mech/A0_A5_s2.json|patchtrust.mechanism --ckpt weights/A0_A5_s2/best.pt --out mech/A0_A5_s2.json
+mech_A1_A5_s2|mech/A1_A5_s2.json|patchtrust.mechanism --ckpt weights/A1_A5_s2/best.pt --out mech/A1_A5_s2.json
+mech_A0_A2_s2|mech/A0_A2_s2.json|patchtrust.mechanism --ckpt weights/A0_A2_s2/best.pt --out mech/A0_A2_s2.json
+mech_A1_A2_s2|mech/A1_A2_s2.json|patchtrust.mechanism --ckpt weights/A1_A2_s2/best.pt --out mech/A1_A2_s2.json

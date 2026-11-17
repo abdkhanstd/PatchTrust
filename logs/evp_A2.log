@@ -1,0 +1,12 @@
+clean mIoU=0.5686 bf1=0.5751 ece=0.0404
+gaussian_noise@2 mIoU=0.3941 bf1=0.3960 ece=0.0332
+gaussian_blur@2 mIoU=0.5117 bf1=0.5352 ece=0.0417
+low_light@2 mIoU=0.5215 bf1=0.5075 ece=0.0425
+jpeg@2 mIoU=0.4411 bf1=0.4730 ece=0.0545
+occlusion@2 mIoU=0.5106 bf1=0.5191 ece=0.0513
+local_blur@2 mIoU=0.5173 bf1=0.5127 ece=0.0445
+motion_blur@2 mIoU=0.4503 bf1=0.4597 ece=0.0571
+contrast@2 mIoU=0.4591 bf1=0.4572 ece=0.0727
+fog@2 mIoU=0.4326 bf1=0.4516 ece=0.0749
+pixelate@2 mIoU=0.4947 bf1=0.5155 ece=0.0395
+kitti clean road IoU {'road_iou': 0.7297105340365987}

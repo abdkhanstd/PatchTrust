@@ -1,0 +1,9 @@
+nfr_A0_s0|tta/nfr_A0_bnprior_s0.json|patchtrust.tta --ckpt weights/A0_s0/best.pt --mode bnprior --ref weights/A0_s0/best.pt --out tta/nfr_A0_bnprior_s0.json
+nfr_A1_s0|tta/nfr_A1_bnprior_s0.json|patchtrust.tta --ckpt weights/A1_s0/best.pt --mode bnprior --ref weights/A0_s0/best.pt --out tta/nfr_A1_bnprior_s0.json
+nfr_A1A5_s0|tta/nfr_A1_A5_bnprior_s0.json|patchtrust.tta --ckpt weights/A1_A5_s0/best.pt --mode bnprior --ref weights/A0_s0/best.pt --out tta/nfr_A1_A5_bnprior_s0.json
+nfr_A0_s1|tta/nfr_A0_bnprior_s1.json|patchtrust.tta --ckpt weights/A0_s1/best.pt --mode bnprior --ref weights/A0_s1/best.pt --out tta/nfr_A0_bnprior_s1.json
+nfr_A1_s1|tta/nfr_A1_bnprior_s1.json|patchtrust.tta --ckpt weights/A1_s1/best.pt --mode bnprior --ref weights/A0_s1/best.pt --out tta/nfr_A1_bnprior_s1.json
+nfr_A1A5_s1|tta/nfr_A1_A5_bnprior_s1.json|patchtrust.tta --ckpt weights/A1_A5_s1/best.pt --mode bnprior --ref weights/A0_s1/best.pt --out tta/nfr_A1_A5_bnprior_s1.json
+nfr_A0_s2|tta/nfr_A0_bnprior_s2.json|patchtrust.tta --ckpt weights/A0_s2/best.pt --mode bnprior --ref weights/A0_s2/best.pt --out tta/nfr_A0_bnprior_s2.json
+nfr_A1_s2|tta/nfr_A1_bnprior_s2.json|patchtrust.tta --ckpt weights/A1_s2/best.pt --mode bnprior --ref weights/A0_s2/best.pt --out tta/nfr_A1_bnprior_s2.json
+nfr_A1A5_s2|tta/nfr_A1_A5_bnprior_s2.json|patchtrust.tta --ckpt weights/A1_A5_s2/best.pt --mode bnprior --ref weights/A0_s2/best.pt --out tta/nfr_A1_A5_bnprior_s2.json

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data_dl/
+data_raw/
+third_party/
+runs/
+cache/
+results/plots/
+last.pt

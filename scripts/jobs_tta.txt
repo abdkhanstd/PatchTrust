@@ -1,0 +1,12 @@
+tta_A0_bn_s0|tta/A0_bn_s0.json|patchtrust.tta --ckpt weights/A0_s0/best.pt --mode bn --out tta/A0_bn_s0.json
+tta_A0_tent_s0|tta/A0_tent_s0.json|patchtrust.tta --ckpt weights/A0_s0/best.pt --mode tent --out tta/A0_tent_s0.json
+tta_A1_bn_s0|tta/A1_bn_s0.json|patchtrust.tta --ckpt weights/A1_s0/best.pt --mode bn --out tta/A1_bn_s0.json
+tta_A1_tent_s0|tta/A1_tent_s0.json|patchtrust.tta --ckpt weights/A1_s0/best.pt --mode tent --out tta/A1_tent_s0.json
+tta_A0_bn_s1|tta/A0_bn_s1.json|patchtrust.tta --ckpt weights/A0_s1/best.pt --mode bn --out tta/A0_bn_s1.json
+tta_A0_tent_s1|tta/A0_tent_s1.json|patchtrust.tta --ckpt weights/A0_s1/best.pt --mode tent --out tta/A0_tent_s1.json
+tta_A1_bn_s1|tta/A1_bn_s1.json|patchtrust.tta --ckpt weights/A1_s1/best.pt --mode bn --out tta/A1_bn_s1.json
+tta_A1_tent_s1|tta/A1_tent_s1.json|patchtrust.tta --ckpt weights/A1_s1/best.pt --mode tent --out tta/A1_tent_s1.json
+tta_A0_bn_s2|tta/A0_bn_s2.json|patchtrust.tta --ckpt weights/A0_s2/best.pt --mode bn --out tta/A0_bn_s2.json
+tta_A0_tent_s2|tta/A0_tent_s2.json|patchtrust.tta --ckpt weights/A0_s2/best.pt --mode tent --out tta/A0_tent_s2.json
+tta_A1_bn_s2|tta/A1_bn_s2.json|patchtrust.tta --ckpt weights/A1_s2/best.pt --mode bn --out tta/A1_bn_s2.json
+tta_A1_tent_s2|tta/A1_tent_s2.json|patchtrust.tta --ckpt weights/A1_s2/best.pt --mode tent --out tta/A1_tent_s2.json

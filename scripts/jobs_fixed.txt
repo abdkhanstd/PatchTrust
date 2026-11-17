@@ -1,0 +1,15 @@
+A0_A2_s0|weights/A0_A2_s0/train_summary.json|patchtrust.train --out weights/A0_A2_s0 --mode heads --base weights/A0_s0/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+A0_A3_s0|weights/A0_A3_s0/train_summary.json|patchtrust.train --out weights/A0_A3_s0 --mode heads --base weights/A0_s0/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+A0_A2_s1|weights/A0_A2_s1/train_summary.json|patchtrust.train --out weights/A0_A2_s1 --mode heads --base weights/A0_s1/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+A0_A3_s1|weights/A0_A3_s1/train_summary.json|patchtrust.train --out weights/A0_A3_s1 --mode heads --base weights/A0_s1/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+A0_A2_s2|weights/A0_A2_s2/train_summary.json|patchtrust.train --out weights/A0_A2_s2 --mode heads --base weights/A0_s2/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+A0_A3_s2|weights/A0_A3_s2/train_summary.json|patchtrust.train --out weights/A0_A3_s2 --mode heads --base weights/A0_s2/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+A1_A2_s0|weights/A1_A2_s0/train_summary.json|patchtrust.train --out weights/A1_A2_s0 --mode heads --base weights/A1_s0/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+A1_A3_s0|weights/A1_A3_s0/train_summary.json|patchtrust.train --out weights/A1_A3_s0 --mode heads --base weights/A1_s0/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 0
+A1_A2_s1|weights/A1_A2_s1/train_summary.json|patchtrust.train --out weights/A1_A2_s1 --mode heads --base weights/A1_s1/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+A1_A3_s1|weights/A1_A3_s1/train_summary.json|patchtrust.train --out weights/A1_A3_s1 --mode heads --base weights/A1_s1/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 1
+A1_A2_s2|weights/A1_A2_s2/train_summary.json|patchtrust.train --out weights/A1_A2_s2 --mode heads --base weights/A1_s2/best.pt --gate ungated --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+A1_A3_s2|weights/A1_A3_s2/train_summary.json|patchtrust.train --out weights/A1_A3_s2 --mode heads --base weights/A1_s2/best.pt --gate entropy --epochs 80 --lr 1e-3 --eval_every 4 --patience 24 --seed 2
+A1ft_s0|weights/A1ft_s0/train_summary.json|patchtrust.train --out weights/A1ft_s0 --mode aug --init weights/A0_s0/best.pt --epochs 80 --lr 2e-4 --eval_every 4 --patience 24 --seed 0
+A1ft_s1|weights/A1ft_s1/train_summary.json|patchtrust.train --out weights/A1ft_s1 --mode aug --init weights/A0_s1/best.pt --epochs 80 --lr 2e-4 --eval_every 4 --patience 24 --seed 1
+A1ft_s2|weights/A1ft_s2/train_summary.json|patchtrust.train --out weights/A1ft_s2 --mode aug --init weights/A0_s2/best.pt --epochs 80 --lr 2e-4 --eval_every 4 --patience 24 --seed 2

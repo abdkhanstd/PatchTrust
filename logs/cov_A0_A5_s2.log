@@ -1,0 +1,11 @@
+clean {'learned_r': 0.5742, 'entropy': 0.5747, 'neg_msp': 0.5742, 'random': 0.5761, 'oracle': 0.5929}
+gaussian_noise@2 {'learned_r': 0.2271, 'entropy': 0.2188, 'neg_msp': 0.214, 'random': 0.1969, 'oracle': 0.2237}
+gaussian_blur@2 {'learned_r': 0.4931, 'entropy': 0.4886, 'neg_msp': 0.488, 'random': 0.4659, 'oracle': 0.5141}
+low_light@2 {'learned_r': 0.5288, 'entropy': 0.5196, 'neg_msp': 0.5235, 'random': 0.5092, 'oracle': 0.5608}
+jpeg@2 {'learned_r': 0.4448, 'entropy': 0.4392, 'neg_msp': 0.4403, 'random': 0.4231, 'oracle': 0.4758}
+occlusion@2 {'learned_r': 0.52, 'entropy': 0.4929, 'neg_msp': 0.4915, 'random': 0.4879, 'oracle': 0.5267}
+local_blur@2 {'learned_r': 0.5189, 'entropy': 0.5146, 'neg_msp': 0.5124, 'random': 0.496, 'oracle': 0.5422}
+motion_blur@2 {'learned_r': 0.4346, 'entropy': 0.4291, 'neg_msp': 0.4306, 'random': 0.4119, 'oracle': 0.4545}
+contrast@2 {'learned_r': 0.4429, 'entropy': 0.438, 'neg_msp': 0.4387, 'random': 0.4285, 'oracle': 0.4693}
+fog@2 {'learned_r': 0.4036, 'entropy': 0.3975, 'neg_msp': 0.3965, 'random': 0.389, 'oracle': 0.4188}
+pixelate@2 {'learned_r': 0.5042, 'entropy': 0.489, 'neg_msp': 0.4899, 'random': 0.4761, 'oracle': 0.5239}

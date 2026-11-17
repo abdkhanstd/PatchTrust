@@ -1,0 +1,15 @@
+{
+ "base": {
+  "params": 3219838,
+  "params_heads": 0,
+  "gmacs": 0.677495424,
+  "cpu4_ms": 35.447999980533496
+ },
+ "patchtrust": {
+  "params": 3329677,
+  "params_heads": 109839,
+  "gmacs": 0.764536576,
+  "cpu4_ms": 51.24920001253486
+ },
+ "gpu": null
+}

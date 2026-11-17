@@ -1,0 +1,11 @@
+clean 0.4466
+gaussian_noise 0.3935
+gaussian_blur 0.4187
+low_light 0.4375
+jpeg 0.401
+occlusion 0.4219
+local_blur 0.4154
+motion_blur 0.3866
+contrast 0.34
+fog 0.3337
+pixelate 0.3888

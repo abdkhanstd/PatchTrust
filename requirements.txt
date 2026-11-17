@@ -1,0 +1,7 @@
+torch==2.1.2
+torchvision==0.16.2
+numpy<2
+scipy
+opencv-python-headless==4.8.1.78
+matplotlib
+pytest

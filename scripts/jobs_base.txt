@@ -1,0 +1,8 @@
+A0_s1|weights/A0_s1/train_summary.json|patchtrust.train --out weights/A0_s1 --mode clean --seed 1
+A0_s2|weights/A0_s2/train_summary.json|patchtrust.train --out weights/A0_s2 --mode clean --seed 2
+A1_s0|weights/A1_s0/train_summary.json|patchtrust.train --out weights/A1_s0 --mode aug --seed 0
+A1_s1|weights/A1_s1/train_summary.json|patchtrust.train --out weights/A1_s1 --mode aug --seed 1
+A1_s2|weights/A1_s2/train_summary.json|patchtrust.train --out weights/A1_s2 --mode aug --seed 2
+A1c_s0|weights/A1c_s0/train_summary.json|patchtrust.train --out weights/A1c_s0 --mode augjsd --seed 0
+A1c_s1|weights/A1c_s1/train_summary.json|patchtrust.train --out weights/A1c_s1 --mode augjsd --seed 1
+A1c_s2|weights/A1c_s2/train_summary.json|patchtrust.train --out weights/A1c_s2 --mode augjsd --seed 2

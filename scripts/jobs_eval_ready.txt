@@ -1,0 +1,54 @@
+ev_A0_s0|eval/A0_s0.json|patchtrust.evaluate --ckpt weights/A0_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_s0
+ev_A1_s0|eval/A1_s0.json|patchtrust.evaluate --ckpt weights/A1_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_s0
+ev_A1c_s0|eval/A1c_s0.json|patchtrust.evaluate --ckpt weights/A1c_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1c_s0
+ev_A1ft_s0|eval/A1ft_s0.json|patchtrust.evaluate --ckpt weights/A1ft_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1ft_s0
+ev_A0_A2_s0|eval/A0_A2_s0.json|patchtrust.evaluate --ckpt weights/A0_A2_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A2_s0
+ev_A0_A3_s0|eval/A0_A3_s0.json|patchtrust.evaluate --ckpt weights/A0_A3_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A3_s0
+ev_A0_A4_s0|eval/A0_A4_s0.json|patchtrust.evaluate --ckpt weights/A0_A4_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A4_s0
+ev_A0_A5_s0|eval/A0_A5_s0.json|patchtrust.evaluate --ckpt weights/A0_A5_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A5_s0
+ev_A0_A6_s0|eval/A0_A6_s0.json|patchtrust.evaluate --ckpt weights/A0_A6_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A6_s0
+ev_A0_A5nc_s0|eval/A0_A5nc_s0.json|patchtrust.evaluate --ckpt weights/A0_A5nc_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A5nc_s0
+ev_A0_A5oracle_s0|eval/A0_A5oracle_s0.json|patchtrust.evaluate --ckpt weights/A0_A5_s0/best.pt --gate_override oracle --out eval/A0_A5oracle_s0
+cov_A0_A5_s0|coverage/A0_A5_s0.json|patchtrust.coverage --ckpt weights/A0_A5_s0/best.pt --out coverage/A0_A5_s0.json
+ev_A1_A2_s0|eval/A1_A2_s0.json|patchtrust.evaluate --ckpt weights/A1_A2_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A2_s0
+ev_A1_A3_s0|eval/A1_A3_s0.json|patchtrust.evaluate --ckpt weights/A1_A3_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A3_s0
+ev_A1_A4_s0|eval/A1_A4_s0.json|patchtrust.evaluate --ckpt weights/A1_A4_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A4_s0
+ev_A1_A5_s0|eval/A1_A5_s0.json|patchtrust.evaluate --ckpt weights/A1_A5_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A5_s0
+ev_A1_A6_s0|eval/A1_A6_s0.json|patchtrust.evaluate --ckpt weights/A1_A6_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A6_s0
+ev_A1_A5nc_s0|eval/A1_A5nc_s0.json|patchtrust.evaluate --ckpt weights/A1_A5nc_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A1_A5nc_s0
+ev_A1_A5oracle_s0|eval/A1_A5oracle_s0.json|patchtrust.evaluate --ckpt weights/A1_A5_s0/best.pt --gate_override oracle --out eval/A1_A5oracle_s0
+cov_A1_A5_s0|coverage/A1_A5_s0.json|patchtrust.coverage --ckpt weights/A1_A5_s0/best.pt --out coverage/A1_A5_s0.json
+ev_A0_A5sel_s0|eval/A0_A5sel_s0.json|patchtrust.evaluate --ckpt weights/A0_A5sel_s0/best.pt --ref weights/A0_s0/best.pt --out eval/A0_A5sel_s0
+ev_A0_s1|eval/A0_s1.json|patchtrust.evaluate --ckpt weights/A0_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_s1
+ev_A1_s1|eval/A1_s1.json|patchtrust.evaluate --ckpt weights/A1_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_s1
+ev_A1c_s1|eval/A1c_s1.json|patchtrust.evaluate --ckpt weights/A1c_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1c_s1
+ev_A1ft_s1|eval/A1ft_s1.json|patchtrust.evaluate --ckpt weights/A1ft_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1ft_s1
+ev_A0_A2_s1|eval/A0_A2_s1.json|patchtrust.evaluate --ckpt weights/A0_A2_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A2_s1
+ev_A0_A3_s1|eval/A0_A3_s1.json|patchtrust.evaluate --ckpt weights/A0_A3_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A3_s1
+ev_A0_A4_s1|eval/A0_A4_s1.json|patchtrust.evaluate --ckpt weights/A0_A4_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A4_s1
+ev_A0_A5_s1|eval/A0_A5_s1.json|patchtrust.evaluate --ckpt weights/A0_A5_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A5_s1
+ev_A0_A6_s1|eval/A0_A6_s1.json|patchtrust.evaluate --ckpt weights/A0_A6_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A6_s1
+ev_A0_A5nc_s1|eval/A0_A5nc_s1.json|patchtrust.evaluate --ckpt weights/A0_A5nc_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A0_A5nc_s1
+ev_A0_A5oracle_s1|eval/A0_A5oracle_s1.json|patchtrust.evaluate --ckpt weights/A0_A5_s1/best.pt --gate_override oracle --out eval/A0_A5oracle_s1
+cov_A0_A5_s1|coverage/A0_A5_s1.json|patchtrust.coverage --ckpt weights/A0_A5_s1/best.pt --out coverage/A0_A5_s1.json
+ev_A1_A2_s1|eval/A1_A2_s1.json|patchtrust.evaluate --ckpt weights/A1_A2_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_A2_s1
+ev_A1_A3_s1|eval/A1_A3_s1.json|patchtrust.evaluate --ckpt weights/A1_A3_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_A3_s1
+ev_A1_A4_s1|eval/A1_A4_s1.json|patchtrust.evaluate --ckpt weights/A1_A4_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_A4_s1
+ev_A1_A5_s1|eval/A1_A5_s1.json|patchtrust.evaluate --ckpt weights/A1_A5_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_A5_s1
+ev_A1_A6_s1|eval/A1_A6_s1.json|patchtrust.evaluate --ckpt weights/A1_A6_s1/best.pt --ref weights/A0_s1/best.pt --out eval/A1_A6_s1
+ev_A1_A5oracle_s1|eval/A1_A5oracle_s1.json|patchtrust.evaluate --ckpt weights/A1_A5_s1/best.pt --gate_override oracle --out eval/A1_A5oracle_s1
+cov_A1_A5_s1|coverage/A1_A5_s1.json|patchtrust.coverage --ckpt weights/A1_A5_s1/best.pt --out coverage/A1_A5_s1.json
+ev_A0_s2|eval/A0_s2.json|patchtrust.evaluate --ckpt weights/A0_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_s2
+ev_A1_s2|eval/A1_s2.json|patchtrust.evaluate --ckpt weights/A1_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A1_s2
+ev_A1c_s2|eval/A1c_s2.json|patchtrust.evaluate --ckpt weights/A1c_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A1c_s2
+ev_A1ft_s2|eval/A1ft_s2.json|patchtrust.evaluate --ckpt weights/A1ft_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A1ft_s2
+ev_A0_A2_s2|eval/A0_A2_s2.json|patchtrust.evaluate --ckpt weights/A0_A2_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A2_s2
+ev_A0_A3_s2|eval/A0_A3_s2.json|patchtrust.evaluate --ckpt weights/A0_A3_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A3_s2
+ev_A0_A4_s2|eval/A0_A4_s2.json|patchtrust.evaluate --ckpt weights/A0_A4_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A4_s2
+ev_A0_A5_s2|eval/A0_A5_s2.json|patchtrust.evaluate --ckpt weights/A0_A5_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A5_s2
+ev_A0_A6_s2|eval/A0_A6_s2.json|patchtrust.evaluate --ckpt weights/A0_A6_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A6_s2
+ev_A0_A5nc_s2|eval/A0_A5nc_s2.json|patchtrust.evaluate --ckpt weights/A0_A5nc_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A0_A5nc_s2
+ev_A0_A5oracle_s2|eval/A0_A5oracle_s2.json|patchtrust.evaluate --ckpt weights/A0_A5_s2/best.pt --gate_override oracle --out eval/A0_A5oracle_s2
+cov_A0_A5_s2|coverage/A0_A5_s2.json|patchtrust.coverage --ckpt weights/A0_A5_s2/best.pt --out coverage/A0_A5_s2.json
+ev_A1_A2_s2|eval/A1_A2_s2.json|patchtrust.evaluate --ckpt weights/A1_A2_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A1_A2_s2
+ev_A1_A3_s2|eval/A1_A3_s2.json|patchtrust.evaluate --ckpt weights/A1_A3_s2/best.pt --ref weights/A0_s2/best.pt --out eval/A1_A3_s2

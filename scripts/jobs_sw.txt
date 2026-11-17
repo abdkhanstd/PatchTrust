@@ -1,0 +1,9 @@
+sw_A1_s0|switch/A1_s0.json|patchtrust.switch --a0 weights/A0_s0/best.pt --b weights/A1_s0/best.pt --out switch/A1_s0.json
+sw_A1ft_s0|switch/A1ft_s0.json|patchtrust.switch --a0 weights/A0_s0/best.pt --b weights/A1ft_s0/best.pt --out switch/A1ft_s0.json
+nfr_S1_s0|tta/nfr_S1_bnprior_s0.json|patchtrust.tta --ckpt weights/S1_s0/best.pt --mode bnprior --ref weights/S0_s0/best.pt --out tta/nfr_S1_bnprior_s0.json
+sw_A1_s1|switch/A1_s1.json|patchtrust.switch --a0 weights/A0_s1/best.pt --b weights/A1_s1/best.pt --out switch/A1_s1.json
+sw_A1ft_s1|switch/A1ft_s1.json|patchtrust.switch --a0 weights/A0_s1/best.pt --b weights/A1ft_s1/best.pt --out switch/A1ft_s1.json
+nfr_S1_s1|tta/nfr_S1_bnprior_s1.json|patchtrust.tta --ckpt weights/S1_s1/best.pt --mode bnprior --ref weights/S0_s1/best.pt --out tta/nfr_S1_bnprior_s1.json
+sw_A1_s2|switch/A1_s2.json|patchtrust.switch --a0 weights/A0_s2/best.pt --b weights/A1_s2/best.pt --out switch/A1_s2.json
+sw_A1ft_s2|switch/A1ft_s2.json|patchtrust.switch --a0 weights/A0_s2/best.pt --b weights/A1ft_s2/best.pt --out switch/A1ft_s2.json
+nfr_S1_s2|tta/nfr_S1_bnprior_s2.json|patchtrust.tta --ckpt weights/S1_s2/best.pt --mode bnprior --ref weights/S0_s2/best.pt --out tta/nfr_S1_bnprior_s2.json

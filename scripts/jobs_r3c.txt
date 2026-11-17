@@ -1,0 +1,39 @@
+ev_K0_s0|eval/K0_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K0_s0
+ev_K1_s0|eval/K1_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K1_s0
+ev_K1cont_s0|eval/K1cont_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1cont_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K1cont_s0
+ev_K1dec_s0|eval/K1dec_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1dec_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K1dec_s0
+ev_K1_A5_s0|eval/K1_A5_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A5_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K1_A5_s0
+ev_K1_A2_s0|eval/K1_A2_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A2_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K1_A2_s0
+ev_K0_A5_s0|eval/K0_A5_s0.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_A5_s0/best.pt --ref weights/K0_s0/best.pt --out eval/K0_A5_s0
+ev_S1cont_s0|eval/S1cont_s0.json|patchtrust.evaluate --ckpt weights/S1cont_s0/best.pt --ref weights/S0_s0/best.pt --out eval/S1cont_s0
+ev_S1dec_s0|eval/S1dec_s0.json|patchtrust.evaluate --ckpt weights/S1dec_s0/best.pt --ref weights/S0_s0/best.pt --out eval/S1dec_s0
+tta_K0_tent_s0|tta/K0_tent_s0.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s0/best.pt --mode tent --out tta/K0_tent_s0.json
+tta_K0_bnprior_s0|tta/K0_bnprior_s0.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s0/best.pt --mode bnprior --out tta/K0_bnprior_s0.json
+tta_K1_tent_s0|tta/K1_tent_s0.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s0/best.pt --mode tent --out tta/K1_tent_s0.json
+tta_K1_bnprior_s0|tta/K1_bnprior_s0.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s0/best.pt --mode bnprior --out tta/K1_bnprior_s0.json
+ev_K0_s1|eval/K0_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K0_s1
+ev_K1_s1|eval/K1_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K1_s1
+ev_K1cont_s1|eval/K1cont_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1cont_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K1cont_s1
+ev_K1dec_s1|eval/K1dec_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1dec_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K1dec_s1
+ev_K1_A5_s1|eval/K1_A5_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A5_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K1_A5_s1
+ev_K1_A2_s1|eval/K1_A2_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A2_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K1_A2_s1
+ev_K0_A5_s1|eval/K0_A5_s1.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_A5_s1/best.pt --ref weights/K0_s1/best.pt --out eval/K0_A5_s1
+ev_S1cont_s1|eval/S1cont_s1.json|patchtrust.evaluate --ckpt weights/S1cont_s1/best.pt --ref weights/S0_s1/best.pt --out eval/S1cont_s1
+ev_S1dec_s1|eval/S1dec_s1.json|patchtrust.evaluate --ckpt weights/S1dec_s1/best.pt --ref weights/S0_s1/best.pt --out eval/S1dec_s1
+tta_K0_tent_s1|tta/K0_tent_s1.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s1/best.pt --mode tent --out tta/K0_tent_s1.json
+tta_K0_bnprior_s1|tta/K0_bnprior_s1.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s1/best.pt --mode bnprior --out tta/K0_bnprior_s1.json
+tta_K1_tent_s1|tta/K1_tent_s1.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s1/best.pt --mode tent --out tta/K1_tent_s1.json
+tta_K1_bnprior_s1|tta/K1_bnprior_s1.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s1/best.pt --mode bnprior --out tta/K1_bnprior_s1.json
+ev_K0_s2|eval/K0_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K0_s2
+ev_K1_s2|eval/K1_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K1_s2
+ev_K1cont_s2|eval/K1cont_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1cont_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K1cont_s2
+ev_K1dec_s2|eval/K1dec_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1dec_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K1dec_s2
+ev_K1_A5_s2|eval/K1_A5_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A5_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K1_A5_s2
+ev_K1_A2_s2|eval/K1_A2_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K1_A2_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K1_A2_s2
+ev_K0_A5_s2|eval/K0_A5_s2.json|patchtrust.evaluate --dataset kitti --data data/kitti_sem --ckpt weights/K0_A5_s2/best.pt --ref weights/K0_s2/best.pt --out eval/K0_A5_s2
+ev_S1cont_s2|eval/S1cont_s2.json|patchtrust.evaluate --ckpt weights/S1cont_s2/best.pt --ref weights/S0_s2/best.pt --out eval/S1cont_s2
+ev_S1dec_s2|eval/S1dec_s2.json|patchtrust.evaluate --ckpt weights/S1dec_s2/best.pt --ref weights/S0_s2/best.pt --out eval/S1dec_s2
+tta_K0_tent_s2|tta/K0_tent_s2.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s2/best.pt --mode tent --out tta/K0_tent_s2.json
+tta_K0_bnprior_s2|tta/K0_bnprior_s2.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K0_s2/best.pt --mode bnprior --out tta/K0_bnprior_s2.json
+tta_K1_tent_s2|tta/K1_tent_s2.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s2/best.pt --mode tent --out tta/K1_tent_s2.json
+tta_K1_bnprior_s2|tta/K1_bnprior_s2.json|patchtrust.tta --dataset kitti --data data/kitti_sem --ckpt weights/K1_s2/best.pt --mode bnprior --out tta/K1_bnprior_s2.json
